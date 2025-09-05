@@ -62,9 +62,5 @@ namespace ApiPeliculas.Repositorio
             //va guardar los cambios se crea un registro .se pudo  guardar  se puedo actualizar.
         }
 
-        ICollection<ICategoriaRepositorio> ICategoriaRepositorio.GetCategorias()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

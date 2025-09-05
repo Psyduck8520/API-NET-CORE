@@ -10,9 +10,5 @@ namespace ApiPeliculas.Modelos
         public string Nombre { get; set; }
         [Required]
         public DateTime FechaCreacion { get; set; }
-      
-
-
-
     }
 }

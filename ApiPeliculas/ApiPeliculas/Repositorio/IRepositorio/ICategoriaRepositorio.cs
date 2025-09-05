@@ -10,7 +10,7 @@ namespace ApiPeliculas.Repositorio.IRepositorio
 
         //primero es un metodo ICOLECION PARA TRAER LOS DATOS 
 
-        ICollection<ICategoriaRepositorio> GetCategorias(); // Tramos la informacion para todas la categoria
+        ICollection<Categoria> GetCategorias(); // Tramos la informacion para todas la categoria
         
         Categoria GetCategoria(int categoriaId); // este  es solo para los edividuales 
        
